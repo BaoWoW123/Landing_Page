@@ -1,0 +1,84 @@
+* {
+border: 1px solid red;
+}
+
+.tophead, .hook, .ad, .adbutton, .footer {
+    color: white;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+
+.header {
+ display:flex;
+ background-color: #1F2937;
+flex: 1;
+}
+
+.tophead {
+
+
+}
+
+.hook {
+
+}
+
+.button {
+    background-color: #3882F6;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.images {
+    border-color: #3882F6;
+    border-style: dashed ;
+
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex: 1;
+}
+
+.cite {
+
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border:1px solid red
+}
+
+.ad {
+    background-color: #3882F6;
+    padding:0 250px;
+}
+
+.adbutton {
+ background-color: #3882F6;
+
+}
+
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    margin-top: auto;
+    margin:0;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
