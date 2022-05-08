@@ -1,8 +1,8 @@
-* {
+/* {
 border: 1px solid red;
-}
+}*/
 
-.tophead, .hook, .ad, .adbutton, .footer {
+.tophead, .hook, .ad, .adbutton, .footer, .header {
     color: white;
 }
 body {
@@ -17,30 +17,47 @@ body {
 .header {
  display:flex;
  background-color: #1F2937;
-flex: 1;
+ padding-bottom: 10px;
+ justify-content: space-between;
+ padding: 0 80px;
+}
+.link {
+    display: flex;
+    margin-left:0 auto;
 }
 
-.tophead {
-
-
-}
 
 .hook {
+    background-color: #1F2937;
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    flex-wrap: wrap;
+    display: flex;
+}
 
+.hooker {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.placeholder {
+    display: flex;
 }
 
 .button {
     background-color: #3882F6;
+    display: flex;
 }
 .content {
-    display: flex;
-    flex-direction: row;
+    
 
 }
 
 .images {
     border-color: #3882F6;
     border-style: dashed ;
+    flex-wrap: wrap;
 
 }
 
@@ -48,6 +65,9 @@ flex: 1;
     background-color: #E5E7EB;
     display: flex;
     flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 0 auto;
 }
 
 .cite {
