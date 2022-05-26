@@ -1,6 +1,7 @@
-/* {
+* {
 border: 1px solid red;
-}*/
+font-family:Verdana, sans-serif ;
+}
 
 .tophead, .hook, .ad, .adbutton, .footer, .header {
     color: white;
@@ -20,10 +21,16 @@ body {
  padding-bottom: 10px;
  justify-content: space-between;
  padding: 0 80px;
+ font-size: 24px #F9FAF8;
 }
-.link {
+.links {
     display: flex;
     margin-left:0 auto;
+    align-items: center;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 0 10px;
+    
 }
 
 
@@ -34,15 +41,22 @@ body {
     color: #F9FAF8;
     flex-wrap: wrap;
     display: flex;
+    padding: 0 auto;
+    
 }
 
-.hooker {
+.left {
     display: flex;
     flex-wrap: wrap;
+    flex: 1;
 }
-
 .placeholder {
     display: flex;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin-right: 300px;
 }
 
 .button {
@@ -50,15 +64,42 @@ body {
     display: flex;
 }
 .content {
-    
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px ;
 
 }
 
 .images {
-    border-color: #3882F6;
-    border-style: dashed ;
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    
+}
 
+.items {
+    
+    display: flex;
+    vertical-align: top;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    border: 5px solid #3882F6;
+    
+}
+
+.caption {
+    display: block;
+    font-size: 20px;
 }
 
 .quote {
@@ -67,10 +108,15 @@ body {
     flex: 1;
     justify-content: center;
     align-items: center;
-    padding: 0 auto;
+    padding: 0 200px;
+    font: 36px italic;
 }
 
 .cite {
+    font-weight: 800;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0;
 
 }
 
