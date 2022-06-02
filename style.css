@@ -1,6 +1,8 @@
 * {
-border: 1px solid red;
-font-family:Verdana, sans-serif ;
+/*border: 1px solid red;*/
+font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+
 }
 
 .tophead, .hook, .ad, .adbutton, .footer, .header {
@@ -9,7 +11,7 @@ font-family:Verdana, sans-serif ;
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: auto;
     margin: 0;
     
 }
@@ -20,9 +22,11 @@ body {
  background-color: #1F2937;
  padding-bottom: 10px;
  justify-content: space-between;
- padding: 0 80px;
+ padding: 0 200px;
+ padding-bottom:80px;
  font-size: 24px #F9FAF8;
 }
+
 .links {
     display: flex;
     margin-left:0 auto;
@@ -35,46 +39,58 @@ body {
 
 
 .hook {
+    display: flex;
     background-color: #1F2937;
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
-    flex-wrap: wrap;
-    display: flex;
-    padding: 0 auto;
-    
+    padding: 0px 120px;
+    padding-bottom: 80px;
 }
 
 .left {
-    display: flex;
-    flex-wrap: wrap;
     flex: 1;
+    margin-left: 80px;
 }
 .placeholder {
     display: flex;
     background-color: grey;
+    padding: 0px;
+    flex: 1;
+    margin: 0 80px;
     justify-content: center;
     align-items: center;
-    padding: 50px;
-    margin-right: 300px;
+    
 }
 
+.placeholder img {
+    width: 300px;
+    height: auto;
+    border: 5px solid #3882F6
+}
+ 
 .button {
+    display: inline-flex;
     background-color: #3882F6;
-    display: flex;
+    padding:5px 30px;
+    border-radius: 10px;
+    
+
 }
 .content {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: bolder;
     text-align: center;
-    padding: 20px ;
+    padding: 50px ;
 
 }
 
 .images {
     display: flex;
     flex-direction:row;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap:50px;
+    padding-bottom: 100px;
     
 }
 
@@ -90,33 +106,35 @@ body {
 }
 
 img {
-    width: 160px;
-    height: 160px;
+    width: 150px;
+    height: 150px;
     border-radius: 10px;
     border: 5px solid #3882F6;
     
 }
 
+
 .caption {
     display: block;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .quote {
     background-color: #E5E7EB;
-    display: flex;
-    flex: 1;
     justify-content: center;
     align-items: center;
-    padding: 0 200px;
-    font: 36px italic;
+    padding: 150px 400px;
+    font: #1F2937;
+    font-size: 36px;
+    font-style: italic;
 }
 
 .cite {
-    font-weight: 800;
+    display: flex;
+    font-weight: bolder;
+    font-size: 30px;
     justify-content: flex-end;
     align-items: flex-end;
-    margin: 0;
 
 }
 
@@ -124,18 +142,29 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    border:1px solid red
+    margin: 50px auto;
+    padding: 20px;
+    
 }
 
 .ad {
+    display: flex;
+    flex-direction: column;
     background-color: #3882F6;
-    padding:0 250px;
+    padding:20px 250px;
+    border-radius:10px;
+    
+
 }
 
 .adbutton {
- background-color: #3882F6;
-
+    display: inline-flex;
+    padding: 5px 25px;
+    background-color: #3882F6;
+    justify-content: flex-end;
+    border:2px solid white;
+    border-radius: 5px;
+    /*last stopped here*/
 }
 
 
