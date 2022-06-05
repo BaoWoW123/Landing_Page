@@ -16,7 +16,9 @@ body {
     
 }
 
-
+.header h1 {
+    margin-left: 80px;
+}
 .header {
  display:flex;
  background-color: #1F2937;
@@ -27,13 +29,14 @@ body {
  font-size: 24px #F9FAF8;
 }
 
+
 .links {
     display: flex;
     margin-left:0 auto;
     align-items: center;
     font-size: 18px;
     color: #E5E7EB;
-    padding: 0 10px;
+    padding: 0 50px;
     
 }
 
@@ -44,7 +47,7 @@ body {
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
-    padding: 0px 120px;
+    padding: 0px 200px;
     padding-bottom: 80px;
 }
 
@@ -64,8 +67,8 @@ body {
 }
 
 .placeholder img {
-    width: 300px;
-    height: auto;
+    width: 650px;
+    height: 260px;
     border: 5px solid #3882F6
 }
  
@@ -116,14 +119,14 @@ img {
 
 .caption {
     display: block;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .quote {
     background-color: #E5E7EB;
     justify-content: center;
     align-items: center;
-    padding: 150px 400px;
+    padding: 150px 510px;
     font: #1F2937;
     font-size: 36px;
     font-style: italic;
@@ -141,9 +144,12 @@ img {
 .end {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 50px auto;
-    padding: 20px;
+    align-items:center;
+    margin: 100px auto;
+    padding: 40px 180px;
+    background-color: #3882F6;
+    border-radius:10px;
+    gap: 200px;
     
 }
 
@@ -151,20 +157,19 @@ img {
     display: flex;
     flex-direction: column;
     background-color: #3882F6;
-    padding:20px 250px;
-    border-radius:10px;
-    
+    margin: auto;
+}
 
+h2 {
+    padding: auto;
+    margin: 0;
 }
 
 .adbutton {
-    display: inline-flex;
     padding: 5px 25px;
     background-color: #3882F6;
-    justify-content: flex-end;
     border:2px solid white;
     border-radius: 5px;
-    /*last stopped here*/
 }
 
 
@@ -173,7 +178,7 @@ img {
     background-color: #1F2937;
     margin-top: auto;
     margin:0;
-    padding: 20px;
+    padding: 50px;
     justify-content: center;
     align-items: center;
 }
